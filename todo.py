@@ -31,3 +31,50 @@ def add_task(tasks):
     tasks.append(new_task)
     save_tasks(tasks)
     print(f"✅ Task '{new_task}' added.")
+def delete_task(tasks):
+    """Deletes a task from the list based on its number."""
+    view_tasks(tasks)
+    if not tasks:
+        return
+        
+    try:
+        task_num_to_delete = int(input("Enter the number of the task to delete: "))
+        if 1 <= task_num_to_delete <= len(tasks):
+            removed_task = tasks.pop(task_num_to_delete - 1)
+            save_tasks(tasks)
+            print(f"🗑️  Task '{removed_task}' deleted.")
+        else:
+            print("Invalid task number.")
+    except ValueError:
+        print("Invalid input. Please enter a number.")
+
+def main():
+    """Main function to run the to-do list application loop."""
+    tasks = load_tasks()
+    
+    print("🗒️  Welcome to your Simple To-Do List! 🗒️")
+    
+    while True:
+        print("\nWhat would you like to do?")
+        print("  1. View tasks")
+        print("  2. Add a task")
+        print("  3. Delete a task")
+        print("  4. Quit")
+        
+        choice = input("Enter your choice (1-4): ")
+
+        if choice == '1':
+            view_tasks(tasks)
+        elif choice == '2':
+            add_task(tasks)
+        elif choice == '3':
+            delete_task(tasks)
+        elif choice == '4':
+            print("Goodbye!")
+            break
+        else:
+            print("Invalid choice. Please enter a number between 1 and 4.")
+
+# --- Main execution block ---
+if __name__ == "__main__":
+    main()
