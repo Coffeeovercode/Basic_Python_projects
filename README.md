@@ -13,3 +13,8 @@ List of projects available in the Repo:
 9. `fibo.py` : Generate a Fibonacci sequence up to the number of terms specified by the user.
 10. `hangman.py` : The hangman game where you have to guess the correct word.
 _Note: Got to add functionality to choose genre of the word and increase the repertoire_
+11. `headline_scraper.py` : Scrapes the top headlines from BBC's website.
+12. `leap_year.py` : Determing whether a user-specified year is a leap year or not.
+13. `madlibs.py` : To play the madlibs game where one user asks the other user to fill in the blanks in a stry with the correct words.
+14. `mouse_mover.py`: Moves the mouse cursor after waiting for a random duration of inactivity to prevent sleep.
+15. `palindrome_checker.py` : To check if a string will be a palindrome or not. It ignores punctuation, case and whitespace.
