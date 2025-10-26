@@ -29,4 +29,4 @@ _Note: Improvements can be made to this. Just a placeholder program for now. Pos
 23. `word_jumble.py` : List of words can be changed according to choice. kept some programming related words to start for now.
 
 ## ...
-###_👨🏼‍💻More to come in due time!_
+### _👨🏼‍💻More to come in due time!_
