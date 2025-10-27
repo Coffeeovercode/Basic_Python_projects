@@ -27,6 +27,7 @@ _Note: Improvements can be made to this. Just a placeholder program for now. Pos
 21. `stopwatch.py`: Runs an interactive stopwatch in the terminal. (Using keyboardinterrupt to stop the watch is nice)
 22. `todo.py`: Creating a todo list. Using choice based system to retrieve the category.
 23. `word_jumble.py` : List of words can be changed according to choice. kept some programming related words to start for now.
+24. `day.py` : Implements a day of the week calculator that takes user input for a date and returns the corresponding day.
 
 ## ...
 ### _👨🏼‍💻More to come in due time!_
