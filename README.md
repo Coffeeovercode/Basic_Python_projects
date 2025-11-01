@@ -31,6 +31,7 @@ _Note: Improvements can be made to this. Just a placeholder program for now. Pos
 25. `rotating_cube.py` : A simulation of a rotating cube.
 26. `rotating_sphere.py` : A simulation of a rotating sphere.
 27. `char_check.py` : Multiple checks for alphanumeric characters, alphabets, digits, etc. in a user provided string. If any of the categories are present, `True` is printed alongside the category else `False`.
+28. `welcome.py` : A scrolling welcome message in an infinite loop; similar to banners on billboards.
 
 ## ...
 ### _👨🏼‍💻More to come in due time!_
