@@ -33,6 +33,7 @@ _Note: Improvements can be made to this. Just a placeholder program for now. Pos
 27. `char_check.py` : Multiple checks for alphanumeric characters, alphabets, digits, etc. in a user provided string. If any of the categories are present, `True` is printed alongside the category else `False`.
 28. `welcome.py` : A scrolling welcome message in an infinite loop; similar to banners on billboards.
 29. `car_loading_bar.py` : A script to simulate a car running as a loading bar.
+30. `rps.py` : To play the classic rock, paper and scissors game with the Computer!
 
 ## ...
 ### _👨🏼‍💻More to come in due time!_
