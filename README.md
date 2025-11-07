@@ -37,6 +37,7 @@ _Note: Improvements can be made to this. Just a placeholder program for now. Pos
 31. `tag.py` : To play a game of tag against the computer. The user can select the grid size and depending on the choice , the difficulty will be different. At each step, the updated position will be printed. If the user moves closer to the randomized position - the PC will return warmer while if it moves away from the position, it will return colder. Using these clues, the player has to guess and reach the taget within a specified number of turns to win.
 32. `date_difference.py` : Calculates the number of days between 2 user-specified dates.
 33. `rangoli.py` : Creates an alphabet rangoli of user-specified integer value as the appropriate size for the rangoli.
+34. `swapcase.py` : Written a script to swap the case of the letters in a user-specified string.(Logic used involves ASCII value manipulation)
 
 ## ...
 ### _👨🏼‍💻More to come in due time!_
