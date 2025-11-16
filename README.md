@@ -38,6 +38,7 @@ _Note: Improvements can be made to this. Just a placeholder program for now. Pos
 32. `date_difference.py` : Calculates the number of days between 2 user-specified dates.
 33. `rangoli.py` : Creates an alphabet rangoli of user-specified integer value as the appropriate size for the rangoli.
 34. `swapcase.py` : Written a script to swap the case of the letters in a user-specified string.(Logic used involves ASCII value manipulation)
+35. `char_boolcheck.py` : Returns bool value depending on the characters present in the user-provided string.
 
 ## ...
 ### _👨🏼‍💻More to come in due time!_
