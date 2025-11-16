@@ -1,0 +1,31 @@
+def check_string_properties(s):
+    print(f"  Analyzing string: '{s}'")
+    print("="*40)
+    
+    # (a-z, A-Z, 0-9)
+    has_alnum = any(c.isalnum() for c in s)
+    print(f"  Contains alphanumeric characters: {has_alnum}")
+
+    # (a-z, A-Z)
+    has_alpha = any(c.isalpha() for c in s)
+    print(f"  Contains alphabetical characters: {has_alpha}")
+
+    # (0-9)
+    has_digit = any(c.isdigit() for c in s)
+    print(f"  Contains digits:                  {has_digit}")
+
+    # (a-z)
+    has_lower = any(c.islower() for c in s)
+    print(f"  Contains lowercase characters:    {has_lower}")
+
+    # (A-Z)
+    has_upper = any(c.isupper() for c in s)
+    print(f"  Contains uppercase characters:    {has_upper}")
+    
+    print("="*40)
+
+# --- Main execution block ---
+if __name__ == "__main__":
+    print("... String Property Checker ...")
+    s = input("Enter a string to analyze: ")
+    check_string_properties(s)
